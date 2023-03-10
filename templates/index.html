@@ -1,0 +1,51 @@
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>ChatGPT demo</title>
+	
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" />
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/common.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/wenda.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/hightlight.css') }}">
+
+</head>
+
+<body>
+	<div class="layout-wrap">
+		<div class="layout-content">
+			<div class="container">
+				<article class="article" id="article">
+					<div class="article-box">
+			
+						<ul id="article-wrapper">
+						</ul>
+						<div class="creating-loading" data-flex="main:center dir:top cross:center">
+							<div class="semi-circle-spin"></div>
+						</div>
+						<div id="fixed-block">
+							<div class="precast-block" id="kw-target-box" data-flex="main:left cross:center">
+								<div id="target-box" class="box">
+									<input type="text" name="kw-target" placeholder="请提问,发送q清空对话" id="kw-target" autofocus>
+								</div>
+								<div class="right-btn layout-bar">
+									<p class="btn ai-btn bright-btn" id="ai-btn" data-flex="main:center cross:center"><i class="iconfont icon-wuguan"></i></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+		</div>
+	</div>
+	<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery.cookie.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/layer.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/highlight.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/showdown.min.js') }}"></script>
+</body>
+
+</html>
