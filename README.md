@@ -3,6 +3,8 @@
 **ChatGPT API 套壳web版本,简单快捷上手前端无复杂框架，默认使用 gpt-3.5-turbo**
 
 
+<iframe src="//player.bilibili.com/player.html?aid=653324932&bvid=BV1TY4y197ZX&cid=1047598253&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 
 **项目依赖**
 
