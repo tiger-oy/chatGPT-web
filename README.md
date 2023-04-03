@@ -2,6 +2,9 @@
 
 **ChatGPT API 套壳web版本,简单快捷上手前端无复杂框架，默认使用 gpt-3.5-turbo**
 
+** 使用demo**
+http://124.223.109.171/
+
 **点击图片跳转播放**
 [![Watch the video](https://i2.hdslb.com/bfs/archive/f561e9afb64549bc6fe9b5fe07aa5f9feb770106.jpg)](https://www.bilibili.com/video/BV1oY411B7sP/?vd_source=fd22b6628d44ec99e570ad945469e272)
 
